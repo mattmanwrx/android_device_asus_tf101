@@ -17,15 +17,15 @@
 $(call inherit-product, device/asus/tf101/full_tf101.mk)
 
 # Inherit some common cyanogenmod stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/carbon/config/common_tablet.mk)
 
 # Inherit device configuration for tf101 gsm.
-$(call inherit-product, vendor/cm/config/gsm.mk)
+$(call inherit-product, vendor/carbon/config/common_gsm.mk)
 
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cm_tf101
+PRODUCT_NAME := carbon_tf101
 PRODUCT_BRAND := asus
 PRODUCT_DEVICE := tf101
 PRODUCT_MODEL := Transformer

@@ -233,7 +233,7 @@
 
     <!-- Asus Dock Compatiblity should be enabled -->
     <bool name="config_hasDockBattery">true</bool>
-	<string name="config_deviceHandlersLib" translatable="false">/system/framework/com.cyanogenmod.asusdec.jar</string>
-    <string name="config_deviceDockBatteryHandlerClass" translatable="false">com.cyanogenmod.asusdec.DockBatteryHandler</string>
+	<add-resource type="string" name="config_deviceHandlersLib" translatable="false">/system/framework/com.cyanogenmod.asusdec.jar</add-resource>
+    <add-resource type="string" name="config_deviceDockBatteryHandlerClass" translatable="false">com.cyanogenmod.asusdec.DockBatteryHandler</add-resource>
     <string name="config_deviceKeyHandlerClass" translatable="false">com.cyanogenmod.asusdec.KeyHandler</string>
 </resources>

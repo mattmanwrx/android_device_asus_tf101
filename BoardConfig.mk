@@ -94,7 +94,8 @@ BOARD_SYSTEM_FILESYSTEM := ext4
 BOARD_CACHE_FILESYSTEM := ext4
 
 # release
-TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := device/asus/tf101/releasetools/tf101_ota_from_target_files
+BOARD_CUSTOM_BOOTIMG_MK := device/asus/tf101/releasetools/blob.mk
+TARGET_RELEASETOOLS_EXTENSIONS := device/asus/tf101/releasetools
 
 # recovery hack
 TARGET_RECOVERY_PRE_COMMAND := "echo 'boot-recovery' > /dev/block/mmcblk0p3; sync"
